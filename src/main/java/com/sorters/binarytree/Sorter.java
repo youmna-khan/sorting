@@ -1,9 +1,7 @@
 package com.sorters.binarytree;
 
-public interface Sorter {
-  static int[] sortArray( int[] arrayToSort ) {
-    return arrayToSort;
-  }
+import com.exceptions.SorterException;
 
-  int[] sort( int[] inputArray);
+public interface Sorter {
+  int[] sort( int[] inputArray) throws SorterException;
 }

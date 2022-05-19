@@ -1,5 +1,7 @@
 package com.sorters.binarytree;
 
+import com.Main;
+
 public class Merger  {
   public int[] merge( int[] a, int[] b ) {
 
@@ -26,7 +28,7 @@ public class Merger  {
         indexOfB++;
       }
       mergedIndex++;
-      Main.printArray( merged );
+//      Main.printArray( merged );
     }
 
     while(indexOfA < a.length) {
@@ -41,7 +43,7 @@ public class Merger  {
       mergedIndex++;
     }
 
-    Main.printArray( merged );
+//    Main.printArray( merged );
     return merged;
   }
 

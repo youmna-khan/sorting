@@ -26,9 +26,9 @@ public class MergeSort implements Sorter {
 
 
     // for my self to check
-    printArray("h1", h1 );
-    printArray( "h2", h2 );
-    printArray( "merged", merged );
+//    printArray("h1", h1 );
+//    printArray( "h2", h2 );
+//    printArray( "merged", merged );
     return merged;
   }
 
